@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registeration Form</title>
+	<style type="text/css">
+		form
+		{
+			padding: 20px;
+		}
+		h1
+		{
+			color: white;
+		}
+		input
+		{
+         border: 2px solid red;
+         border-radius: 4px;
+         background-color: white;
+
+        }
+        body, html {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+.bg-img {
+  
+ background-image: url("reg1.gif");
+
+  
+  min-height: 480px;
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+	</style>
+</head>
+<body >
+	<div class="bg-img">
+	<center>
+	<form method="post" action="login.html" >
+	<h1>Registeration Form</h1><br><br>
+
+	<input type="text" name="username" placeholder="enter your name" size="35"><br><br>
+
+	<input type="text" name="email" placeholder="enter your email" size="35"><br><br>
+
+	<input type="text" name="phone" placeholder="enter your phonenumber" size="35"><br><br>
+	<label>Gender:<br>
+	<input type="radio" name="male">male<br><br>
+	<input type="radio" name="male">female<br><br>
+    </label>
+    
+    <input type="password" name="password" placeholder="enter your passsword" size="35"><br><br>
+    <input type="password" name="cpassword" placeholder="enter your confirm passsword" size="35"><br><br>
+    <label>The above declared details are correct</label><br>
+    <input type="checkbox" name="app" ><br><br>
+    
+    
+
+
+	<input type="submit" name="register">Alredy Have An Account <a href="login.html">Login Here</a>
+
+    </form>
+    </center>
+</div>
+
+</body>
+</html>
